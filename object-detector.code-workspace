@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Training",
+				"type": "python",
+				"request": "launch",
+				"program": "train.py",
+				"console": "integratedTerminal",
+				"args": [
+					"C:\\Data\\coco\\images",
+					"C:\\Data\\coco\\annotations\\instances_train2017.json",
+					"C:\\Data\\coco\\annotations\\instances_val2017.json"
+				]
+			}
+		]
+	}
+}
